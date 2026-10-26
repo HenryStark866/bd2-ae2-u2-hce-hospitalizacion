@@ -1,0 +1,163 @@
+[
+  {
+    "_id": "PAC-001",
+    "tipo_documento": "CC",
+    "documento": "1017000001",
+    "nombres": "Gloria Inés",
+    "apellidos": "Ramírez Toro",
+    "fecha_nacimiento": {
+      "$date": {
+        "$numberLong": "-372470400000"
+      }
+    },
+    "sexo": "F",
+    "grupo_sanguineo": "O+",
+    "contacto": {
+      "municipio": "Medellín",
+      "telefono": "3001110001"
+    },
+    "aseguramiento": {
+      "eps": "Savia Salud",
+      "regimen": "SUBSIDIADO"
+    },
+    "alergias": [
+      "Penicilina"
+    ],
+    "antecedentes": [
+      "Hipertensión arterial",
+      "Diabetes mellitus tipo 2"
+    ]
+  },
+  {
+    "_id": "PAC-002",
+    "tipo_documento": "CC",
+    "documento": "70050002",
+    "nombres": "Jorge Eliécer",
+    "apellidos": "Muñoz Pérez",
+    "fecha_nacimiento": {
+      "$date": {
+        "$numberLong": "-573264000000"
+      }
+    },
+    "sexo": "M",
+    "grupo_sanguineo": "A+",
+    "contacto": {
+      "municipio": "Bello",
+      "telefono": "3002220002"
+    },
+    "aseguramiento": {
+      "eps": "Sura",
+      "regimen": "CONTRIBUTIVO"
+    },
+    "alergias": [],
+    "antecedentes": [
+      "EPOC",
+      "Tabaquismo (40 paquetes-año)"
+    ]
+  },
+  {
+    "_id": "PAC-003",
+    "tipo_documento": "TI",
+    "documento": "1020000003",
+    "nombres": "Sara Valentina",
+    "apellidos": "Cardona Londoño",
+    "fecha_nacimiento": {
+      "$date": "2012-07-21T00:00:00Z"
+    },
+    "sexo": "F",
+    "grupo_sanguineo": "B+",
+    "contacto": {
+      "municipio": "Itagüí",
+      "telefono": "3003330003",
+      "acudiente": {
+        "nombre": "Paola Londoño",
+        "parentesco": "Madre"
+      }
+    },
+    "aseguramiento": {
+      "eps": "Savia Salud",
+      "regimen": "SUBSIDIADO"
+    },
+    "alergias": [],
+    "antecedentes": []
+  },
+  {
+    "_id": "PAC-004",
+    "tipo_documento": "CC",
+    "documento": "98040004",
+    "nombres": "Luis Fernando",
+    "apellidos": "Arango Salazar",
+    "fecha_nacimiento": {
+      "$date": {
+        "$numberLong": "-18662400000"
+      }
+    },
+    "sexo": "M",
+    "grupo_sanguineo": "O-",
+    "contacto": {
+      "municipio": "Envigado",
+      "telefono": "3004440004"
+    },
+    "aseguramiento": {
+      "eps": "Sanitas",
+      "regimen": "CONTRIBUTIVO"
+    },
+    "alergias": [
+      "AINEs"
+    ],
+    "antecedentes": [
+      "Dislipidemia",
+      "Hipertensión arterial"
+    ]
+  },
+  {
+    "_id": "PAC-005",
+    "tipo_documento": "CC",
+    "documento": "43050005",
+    "nombres": "María Camila",
+    "apellidos": "Echeverri Gómez",
+    "fecha_nacimiento": {
+      "$date": "1996-09-09T00:00:00Z"
+    },
+    "sexo": "F",
+    "grupo_sanguineo": "A-",
+    "contacto": {
+      "municipio": "Rionegro",
+      "telefono": "3005550005"
+    },
+    "aseguramiento": {
+      "eps": "Coosalud",
+      "regimen": "SUBSIDIADO"
+    },
+    "alergias": [],
+    "antecedentes": [
+      "Cesárea previa"
+    ]
+  },
+  {
+    "_id": "PAC-006",
+    "tipo_documento": "CC",
+    "documento": "15060006",
+    "nombres": "Héctor Darío",
+    "apellidos": "Jaramillo Builes",
+    "fecha_nacimiento": {
+      "$date": "1975-01-25T00:00:00Z"
+    },
+    "sexo": "M",
+    "grupo_sanguineo": "AB+",
+    "contacto": {
+      "municipio": "Apartadó",
+      "telefono": "3006660006"
+    },
+    "aseguramiento": {
+      "eps": "Nueva EPS",
+      "regimen": "CONTRIBUTIVO"
+    },
+    "alergias": [
+      "Sulfas"
+    ],
+    "antecedentes": [
+      "Diabetes mellitus tipo 2"
+    ]
+  }
+]

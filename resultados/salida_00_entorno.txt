@@ -1,0 +1,85 @@
+mongosh> db.version()
+8.3.7
+
+mongosh> show collections
+catalogo_cie10          10 docs
+catalogo_medicamentos   12 docs
+hospitalizaciones       7 docs
+pacientes               6 docs
+profesionales           6 docs
+
+mongosh> db.hospitalizaciones.findOne({_id:"HOSP-2026-0003"},{signos_vitales:{$slice:2},notas_evolucion:0,notas_enfermeria:0})
+{
+  _id: 'HOSP-2026-0003',
+  paciente_id: 'PAC-003',
+  medico_tratante_id: 'PRO-003',
+  ips: 'Hospital Infantil Concejo de Medellín',
+  servicio: 'PEDIATRIA',
+  cama: 'PE-105',
+  fecha_admision: ISODate('2026-09-15T21:00:00.000Z'),
+  via_ingreso: 'URGENCIAS',
+  motivo_ingreso: 'Vómito y diarrea de 2 días con deshidratación moderada',
+  estado: 'EGRESADA',
+  diagnosticos: [
+    {
+      cie10: 'A09',
+      descripcion: 'Gastroenteritis de presunto origen infeccioso',
+      tipo: 'INGRESO',
+      fecha: ISODate('2026-09-15T21:00:00.000Z')
+    },
+    {
+      cie10: 'A09',
+      descripcion: 'Gastroenteritis de presunto origen infeccioso',
+      tipo: 'PRINCIPAL',
+      fecha: ISODate('2026-09-16T08:00:00.000Z')
+    },
+    {
+      cie10: 'A09',
+      descripcion: 'Gastroenteritis de presunto origen infeccioso',
+      tipo: 'EGRESO',
+      fecha: ISODate('2026-09-18T10:00:00.000Z')
+    }
+  ],
+  signos_vitales: [
+    {
+      fecha: ISODate('2026-09-15T22:00:00.000Z'),
+      fc: 122,
+      fr: 28,
+      ta_sistolica: 93,
+      ta_diastolica: 58,
+      temperatura: 38.1,
+      spo2: 96,
+      registrado_por: 'ENF-002'
+    },
+    {
+      fecha: ISODate('2026-09-16T06:00:00.000Z'),
+      fc: 123,
+      fr: 28,
+      ta_sistolica: 97,
+      ta_diastolica: 58,
+      temperatura: 38,
+      spo2: 96,
+      registrado_por: 'ENF-002'
+    }
+  ],
+  ordenes_medicamentos: [
+    {
+      medicamento_id: 'MED-009',
+      nombre: 'Lactato de Ringer',
+      dosis: '20 mL/kg en bolo, luego mantenimiento',
+      via: 'IV',
+      frecuencia: 'continuo',
+      fecha_inicio: ISODate('2026-09-16T00:00:00.000Z'),
+      fecha_fin: ISODate('2026-09-17T09:00:00.000Z'),
+      prescriptor_id: 'PRO-003',
+      estado: 'FINALIZADA'
+    }
+  ],
+  alta: {
+    fecha: ISODate('2026-09-18T10:00:00.000Z'),
+    condicion: 'MEJORADO',
+    destino: 'Domicilio',
+    diagnostico_egreso: 'A09',
+    recomendaciones: 'Suero oral, signos de alarma, control pediátrico en 3 días.'
+  }
+}

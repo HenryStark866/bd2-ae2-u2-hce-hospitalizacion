@@ -1,0 +1,6 @@
+Carga completada:
+  catalogo_cie10          10
+  catalogo_medicamentos   12
+  profesionales           6
+  pacientes               6
+  hospitalizaciones       7

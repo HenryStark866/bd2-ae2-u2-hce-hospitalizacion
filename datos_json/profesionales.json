@@ -1,0 +1,44 @@
+[
+  {
+    "_id": "ENF-001",
+    "nombre": "Enf. Luz Dary Henao",
+    "rol": "ENFERMERIA",
+    "especialidad": "Enfermería",
+    "registro_medico": "RE-05-4410"
+  },
+  {
+    "_id": "ENF-002",
+    "nombre": "Enf. Carlos Mario Quintero",
+    "rol": "ENFERMERIA",
+    "especialidad": "Enfermería",
+    "registro_medico": "RE-05-5122"
+  },
+  {
+    "_id": "PRO-001",
+    "nombre": "Dra. Marcela Restrepo Vélez",
+    "rol": "MEDICO",
+    "especialidad": "Medicina Interna",
+    "registro_medico": "RM-05-11872"
+  },
+  {
+    "_id": "PRO-002",
+    "nombre": "Dr. Andrés Giraldo Mejía",
+    "rol": "MEDICO",
+    "especialidad": "Medicina Interna",
+    "registro_medico": "RM-05-20931"
+  },
+  {
+    "_id": "PRO-003",
+    "nombre": "Dra. Juliana Ospina Cano",
+    "rol": "ESPECIALISTA",
+    "especialidad": "Pediatría",
+    "registro_medico": "RM-05-30415"
+  },
+  {
+    "_id": "PRO-004",
+    "nombre": "Dr. Camilo Zapata Ruiz",
+    "rol": "ESPECIALISTA",
+    "especialidad": "Cirugía General",
+    "registro_medico": "RM-05-17764"
+  }
+]

@@ -1,0 +1,162 @@
+
+==================== C1. Pacientes hospitalizados con diagnostico PRINCIPAL = J18.9 ====================
+{
+  servicio: 'MEDICINA_INTERNA',
+  fecha_admision: ISODate('2026-09-02T14:30:00.000Z'),
+  estado: 'EGRESADA',
+  hospitalizacion: 'HOSP-2026-0001',
+  paciente: 'Gloria Inés Ramírez Toro',
+  documento: '1017000001'
+}
+
+==================== C1b. Conteo de hospitalizaciones por diagnostico principal ====================
+{
+  hospitalizaciones: 1,
+  cie10: 'A09',
+  descripcion: 'Gastroenteritis de presunto origen infeccioso'
+}
+{
+  hospitalizaciones: 1,
+  cie10: 'E11.1',
+  descripcion: 'Diabetes mellitus tipo 2 con cetoacidosis'
+}
+{
+  hospitalizaciones: 1,
+  cie10: 'I10',
+  descripcion: 'Hipertensión esencial (primaria)'
+}
+{
+  hospitalizaciones: 1,
+  cie10: 'I21.9',
+  descripcion: 'Infarto agudo de miocardio'
+}
+{
+  hospitalizaciones: 1,
+  cie10: 'J18.9',
+  descripcion: 'Neumonía, no especificada'
+}
+{
+  hospitalizaciones: 1,
+  cie10: 'J44.1',
+  descripcion: 'EPOC con exacerbación aguda'
+}
+{
+  hospitalizaciones: 1,
+  cie10: 'K35.8',
+  descripcion: 'Apendicitis aguda'
+}
+
+==================== C2. Evolucion cronologica de HOSP-2026-0001 (paciente PAC-001) ====================
+{
+  fecha: ISODate('2026-09-02T20:00:00.000Z'),
+  medico: 'Dra. Marcela Restrepo Vélez',
+  analisis: 'Neumonía adquirida en comunidad CURB-65 = 2.',
+  plan: 'Hospitalizar, oxígeno suplementario, ceftriaxona IV, control glucométrico.'
+}
+{
+  fecha: ISODate('2026-09-04T09:00:00.000Z'),
+  medico: 'Dra. Marcela Restrepo Vélez',
+  analisis: 'Buena respuesta al tratamiento.',
+  plan: 'Continuar antibiótico, destete de oxígeno.'
+}
+{
+  fecha: ISODate('2026-09-06T09:00:00.000Z'),
+  medico: 'Dra. Marcela Restrepo Vélez',
+  analisis: 'Resolución clínica.',
+  plan: 'Cambio a vía oral, programar egreso.'
+}
+
+==================== C3. Medicamentos asignados al paciente PAC-006 (Hector Dario Jaramillo) ====================
+{
+  hospitalizacion: 'HOSP-2026-0006',
+  medicamento: 'Insulina cristalina',
+  atc: 'A10AB01',
+  dosis: '0.1 UI/kg/h en infusión',
+  via: 'IV',
+  frecuencia: 'continuo',
+  estado: 'FINALIZADA'
+}
+{
+  hospitalizacion: 'HOSP-2026-0006',
+  medicamento: 'Suero oral / Lactato de Ringer',
+  atc: 'B05BB01',
+  dosis: '1000 mL',
+  via: 'IV',
+  frecuencia: 'cada 4 horas',
+  estado: 'FINALIZADA'
+}
+{
+  hospitalizacion: 'HOSP-2026-0006',
+  medicamento: 'Ciprofloxacino',
+  atc: 'J01MA02',
+  dosis: '500 mg',
+  via: 'VO',
+  frecuencia: 'cada 12 horas',
+  estado: 'ACTIVA'
+}
+{
+  hospitalizacion: 'HOSP-2026-0006',
+  medicamento: 'Metformina',
+  atc: 'A10BA02',
+  dosis: '850 mg',
+  via: 'VO',
+  frecuencia: 'cada 12 horas',
+  estado: 'ACTIVA'
+}
+
+==================== C3b. Medicamentos ACTIVOS en hospitalizaciones ACTIVAS (agrupado por paciente) ====================
+{
+  hospitalizacion: 'HOSP-2026-0006',
+  paciente: 'Héctor Darío Jaramillo Builes',
+  medicamentos: [
+    'Ciprofloxacino 500 mg VO',
+    'Metformina 850 mg VO'
+  ]
+}
+{
+  hospitalizacion: 'HOSP-2026-0007',
+  paciente: 'Gloria Inés Ramírez Toro',
+  medicamentos: [
+    'Losartan 100 mg VO',
+    'Metformina 850 mg VO'
+  ]
+}
+
+==================== C4. Tomas con SpO2 < 92% (alerta de hipoxemia), por hospitalizacion ====================
+{
+  _id: 'HOSP-2026-0002',
+  paciente: 'PAC-002',
+  tomas_criticas: 8,
+  spo2_minima: 88
+}
+{
+  _id: 'HOSP-2026-0001',
+  paciente: 'PAC-001',
+  tomas_criticas: 3,
+  spo2_minima: 90
+}
+
+==================== C5. Estancia promedio en dias por servicio (egresadas) ====================
+{
+  _id: 'UCI',
+  hospitalizaciones: 1,
+  estancia_promedio_dias: 6
+}
+{
+  _id: 'MEDICINA_INTERNA',
+  hospitalizaciones: 2,
+  estancia_promedio_dias: 5
+}
+{
+  _id: 'PEDIATRIA',
+  hospitalizaciones: 1,
+  estancia_promedio_dias: 3
+}
+{
+  _id: 'CIRUGIA',
+  hospitalizaciones: 1,
+  estancia_promedio_dias: 3
+}
+
+==================== V1. Prueba de integridad: insertar signo vital fuera de rango debe fallar ====================
+Rechazado correctamente -> codigo 121 (DocumentValidationFailure): Plan executor error during update :: caused by :: Document failed validation

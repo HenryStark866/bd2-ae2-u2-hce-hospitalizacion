@@ -1,0 +1,14 @@
+Base de datos 'hce_hospitalizacion' creada. Colecciones:
+[
+  'catalogo_cie10',
+  'catalogo_medicamentos',
+  'hospitalizaciones',
+  'pacientes',
+  'profesionales'
+]
+Indices en hospitalizaciones:
+  - _id_
+  - paciente_id_1_fecha_admision_-1
+  - diagnosticos.cie10_1
+  - servicio_1_estado_1
+  - ordenes_medicamentos.medicamento_id_1

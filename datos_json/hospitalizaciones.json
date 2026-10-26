@@ -1,0 +1,1878 @@
+[
+  {
+    "_id": "HOSP-2026-0001",
+    "paciente_id": "PAC-001",
+    "medico_tratante_id": "PRO-001",
+    "ips": "Hospital General de Medellín",
+    "servicio": "MEDICINA_INTERNA",
+    "cama": "MI-204",
+    "fecha_admision": {
+      "$date": "2026-09-02T14:30:00Z"
+    },
+    "via_ingreso": "URGENCIAS",
+    "motivo_ingreso": "Fiebre, tos productiva y disnea de 3 días de evolución",
+    "estado": "EGRESADA",
+    "diagnosticos": [
+      {
+        "cie10": "J18.9",
+        "descripcion": "Neumonía, no especificada",
+        "tipo": "INGRESO",
+        "fecha": {
+          "$date": "2026-09-02T14:30:00Z"
+        }
+      },
+      {
+        "cie10": "J18.9",
+        "descripcion": "Neumonía, no especificada",
+        "tipo": "PRINCIPAL",
+        "fecha": {
+          "$date": "2026-09-02T20:00:00Z"
+        }
+      },
+      {
+        "cie10": "E11.9",
+        "descripcion": "Diabetes mellitus tipo 2 sin complicaciones",
+        "tipo": "RELACIONADO",
+        "fecha": {
+          "$date": "2026-09-02T20:00:00Z"
+        }
+      },
+      {
+        "cie10": "J18.9",
+        "descripcion": "Neumonía, no especificada",
+        "tipo": "EGRESO",
+        "fecha": {
+          "$date": "2026-09-07T10:00:00Z"
+        }
+      }
+    ],
+    "notas_evolucion": [
+      {
+        "fecha": {
+          "$date": "2026-09-02T20:00:00Z"
+        },
+        "profesional_id": "PRO-001",
+        "subjetivo": "Refiere disnea y fiebre.",
+        "objetivo": "SpO2 90% ambiente, crépitos en base derecha, Rx con consolidación LID.",
+        "analisis": "Neumonía adquirida en comunidad CURB-65 = 2.",
+        "plan": "Hospitalizar, oxígeno suplementario, ceftriaxona IV, control glucométrico."
+      },
+      {
+        "fecha": {
+          "$date": "2026-09-04T09:00:00Z"
+        },
+        "profesional_id": "PRO-001",
+        "subjetivo": "Menos disnea, persiste tos.",
+        "objetivo": "Afebril 24 h, SpO2 94% con cánula 2 L/min.",
+        "analisis": "Buena respuesta al tratamiento.",
+        "plan": "Continuar antibiótico, destete de oxígeno."
+      },
+      {
+        "fecha": {
+          "$date": "2026-09-06T09:00:00Z"
+        },
+        "profesional_id": "PRO-001",
+        "subjetivo": "Asintomática.",
+        "objetivo": "SpO2 96% ambiente, sin fiebre, glucometrías en metas.",
+        "analisis": "Resolución clínica.",
+        "plan": "Cambio a vía oral, programar egreso."
+      }
+    ],
+    "signos_vitales": [
+      {
+        "fecha": {
+          "$date": "2026-09-02T15:00:00Z"
+        },
+        "fc": 102,
+        "fr": 26,
+        "ta_sistolica": 125,
+        "ta_diastolica": 76,
+        "temperatura": 38.6,
+        "spo2": 90,
+        "registrado_por": "ENF-001"
+      },
+      {
+        "fecha": {
+          "$date": "2026-09-02T23:00:00Z"
+        },
+        "fc": 104,
+        "fr": 25,
+        "ta_sistolica": 127,
+        "ta_diastolica": 76,
+        "temperatura": 38.4,
+        "spo2": 91,
+        "registrado_por": "ENF-001"
+      },
+      {
+        "fecha": {
+          "$date": "2026-09-03T07:00:00Z"
+        },
+        "fc": 97,
+        "fr": 24,
+        "ta_sistolica": 129,
+        "ta_diastolica": 76,
+        "temperatura": 38.2,
+        "spo2": 91,
+        "registrado_por": "ENF-001"
+      },
+      {
+        "fecha": {
+          "$date": "2026-09-03T15:00:00Z"
+        },
+        "fc": 99,
+        "fr": 24,
+        "ta_sistolica": 123,
+        "ta_diastolica": 76,
+        "temperatura": 38.1,
+        "spo2": 92,
+        "registrado_por": "ENF-001"
+      },
+      {
+        "fecha": {
+          "$date": "2026-09-03T23:00:00Z"
+        },
+        "fc": 93,
+        "fr": 23,
+        "ta_sistolica": 125,
+        "ta_diastolica": 76,
+        "temperatura": 37.9,
+        "spo2": 92,
+        "registrado_por": "ENF-001"
+      },
+      {
+        "fecha": {
+          "$date": "2026-09-04T07:00:00Z"
+        },
+        "fc": 95,
+        "fr": 22,
+        "ta_sistolica": 127,
+        "ta_diastolica": 76,
+        "temperatura": 37.7,
+        "spo2": 93,
+        "registrado_por": "ENF-001"
+      },
+      {
+        "fecha": {
+          "$date": "2026-09-04T15:00:00Z"
+        },
+        "fc": 88,
+        "fr": 21,
+        "ta_sistolica": 120,
+        "ta_diastolica": 76,
+        "temperatura": 37.5,
+        "spo2": 93,
+        "registrado_por": "ENF-001"
+      },
+      {
+        "fecha": {
+          "$date": "2026-09-04T23:00:00Z"
+        },
+        "fc": 90,
+        "fr": 20,
+        "ta_sistolica": 122,
+        "ta_diastolica": 76,
+        "temperatura": 37.3,
+        "spo2": 94,
+        "registrado_por": "ENF-001"
+      },
+      {
+        "fecha": {
+          "$date": "2026-09-05T07:00:00Z"
+        },
+        "fc": 84,
+        "fr": 20,
+        "ta_sistolica": 125,
+        "ta_diastolica": 76,
+        "temperatura": 37.2,
+        "spo2": 94,
+        "registrado_por": "ENF-001"
+      },
+      {
+        "fecha": {
+          "$date": "2026-09-05T15:00:00Z"
+        },
+        "fc": 85,
+        "fr": 19,
+        "ta_sistolica": 118,
+        "ta_diastolica": 76,
+        "temperatura": 37.0,
+        "spo2": 95,
+        "registrado_por": "ENF-001"
+      },
+      {
+        "fecha": {
+          "$date": "2026-09-05T23:00:00Z"
+        },
+        "fc": 79,
+        "fr": 18,
+        "ta_sistolica": 120,
+        "ta_diastolica": 76,
+        "temperatura": 36.8,
+        "spo2": 96,
+        "registrado_por": "ENF-001"
+      },
+      {
+        "fecha": {
+          "$date": "2026-09-06T07:00:00Z"
+        },
+        "fc": 81,
+        "fr": 17,
+        "ta_sistolica": 122,
+        "ta_diastolica": 76,
+        "temperatura": 36.6,
+        "spo2": 96,
+        "registrado_por": "ENF-001"
+      }
+    ],
+    "notas_enfermeria": [
+      {
+        "fecha": {
+          "$date": "2026-09-02T16:00:00Z"
+        },
+        "enfermera_id": "ENF-001",
+        "turno": "TARDE",
+        "nota": "Ingresa consciente, orientada. Se instala cánula nasal 2 L/min y acceso venoso periférico."
+      },
+      {
+        "fecha": {
+          "$date": "2026-09-03T06:30:00Z"
+        },
+        "enfermera_id": "ENF-002",
+        "turno": "NOCHE",
+        "nota": "Pasó noche tranquila, tos esporádica. Glucometría 142 mg/dL."
+      },
+      {
+        "fecha": {
+          "$date": "2026-09-05T14:00:00Z"
+        },
+        "enfermera_id": "ENF-001",
+        "turno": "TARDE",
+        "nota": "Tolera dieta, deambula con apoyo. Sin oxígeno suplementario."
+      }
+    ],
+    "ordenes_medicamentos": [
+      {
+        "medicamento_id": "MED-001",
+        "nombre": "Ceftriaxona",
+        "dosis": "1 g",
+        "via": "IV",
+        "frecuencia": "cada 12 horas",
+        "fecha_inicio": {
+          "$date": "2026-09-02T20:00:00Z"
+        },
+        "fecha_fin": {
+          "$date": "2026-09-06T09:00:00Z"
+        },
+        "prescriptor_id": "PRO-001",
+        "estado": "FINALIZADA"
+      },
+      {
+        "medicamento_id": "MED-002",
+        "nombre": "Azitromicina",
+        "dosis": "500 mg",
+        "via": "VO",
+        "frecuencia": "cada 24 horas",
+        "fecha_inicio": {
+          "$date": "2026-09-06T09:00:00Z"
+        },
+        "fecha_fin": {
+          "$date": "2026-09-07T10:00:00Z"
+        },
+        "prescriptor_id": "PRO-001",
+        "estado": "FINALIZADA"
+      },
+      {
+        "medicamento_id": "MED-010",
+        "nombre": "Acetaminofen",
+        "dosis": "500 mg",
+        "via": "VO",
+        "frecuencia": "cada 8 horas si fiebre",
+        "fecha_inicio": {
+          "$date": "2026-09-02T20:00:00Z"
+        },
+        "fecha_fin": {
+          "$date": "2026-09-07T10:00:00Z"
+        },
+        "prescriptor_id": "PRO-001",
+        "estado": "FINALIZADA"
+      },
+      {
+        "medicamento_id": "MED-005",
+        "nombre": "Insulina cristalina",
+        "dosis": "según esquema móvil",
+        "via": "SC",
+        "frecuencia": "antes de comidas",
+        "fecha_inicio": {
+          "$date": "2026-09-02T20:00:00Z"
+        },
+        "fecha_fin": {
+          "$date": "2026-09-07T10:00:00Z"
+        },
+        "prescriptor_id": "PRO-001",
+        "estado": "FINALIZADA"
+      }
+    ],
+    "alta": {
+      "fecha": {
+        "$date": "2026-09-07T10:00:00Z"
+      },
+      "condicion": "MEJORADO",
+      "destino": "Domicilio",
+      "diagnostico_egreso": "J18.9",
+      "recomendaciones": "Completar azitromicina, control en 7 días, vacunación antineumocócica."
+    }
+  },
+  {
+    "_id": "HOSP-2026-0002",
+    "paciente_id": "PAC-002",
+    "medico_tratante_id": "PRO-002",
+    "ips": "Hospital General de Medellín",
+    "servicio": "MEDICINA_INTERNA",
+    "cama": "MI-211",
+    "fecha_admision": {
+      "$date": "2026-09-10T08:15:00Z"
+    },
+    "via_ingreso": "URGENCIAS",
+    "motivo_ingreso": "Disnea progresiva y aumento de expectoración",
+    "estado": "EGRESADA",
+    "diagnosticos": [
+      {
+        "cie10": "J44.1",
+        "descripcion": "EPOC con exacerbación aguda",
+        "tipo": "INGRESO",
+        "fecha": {
+          "$date": "2026-09-10T08:15:00Z"
+        }
+      },
+      {
+        "cie10": "J44.1",
+        "descripcion": "EPOC con exacerbación aguda",
+        "tipo": "PRINCIPAL",
+        "fecha": {
+          "$date": "2026-09-10T12:00:00Z"
+        }
+      },
+      {
+        "cie10": "I10",
+        "descripcion": "Hipertensión esencial (primaria)",
+        "tipo": "RELACIONADO",
+        "fecha": {
+          "$date": "2026-09-10T12:00:00Z"
+        }
+      },
+      {
+        "cie10": "J44.1",
+        "descripcion": "EPOC con exacerbación aguda",
+        "tipo": "EGRESO",
+        "fecha": {
+          "$date": "2026-09-15T11:00:00Z"
+        }
+      }
+    ],
+    "notas_evolucion": [
+      {
+        "fecha": {
+          "$date": "2026-09-10T12:00:00Z"
+        },
+        "profesional_id": "PRO-002",
+        "subjetivo": "Disnea de moderados esfuerzos.",
+        "objetivo": "Sibilancias difusas, SpO2 88%.",
+        "analisis": "Exacerbación de EPOC GOLD E.",
+        "plan": "Broncodilatadores, corticoide sistémico, oxígeno controlado."
+      },
+      {
+        "fecha": {
+          "$date": "2026-09-12T09:00:00Z"
+        },
+        "profesional_id": "PRO-002",
+        "subjetivo": "Mejoría parcial.",
+        "objetivo": "SpO2 92% con 2 L/min, menos sibilancias.",
+        "analisis": "Evolución favorable.",
+        "plan": "Continuar esquema, iniciar destete de oxígeno."
+      },
+      {
+        "fecha": {
+          "$date": "2026-09-14T09:00:00Z"
+        },
+        "profesional_id": "PRO-002",
+        "subjetivo": "Sin disnea en reposo.",
+        "objetivo": "SpO2 93% ambiente.",
+        "analisis": "Estable.",
+        "plan": "Egreso con inhaladores y control por neumología."
+      }
+    ],
+    "signos_vitales": [
+      {
+        "fecha": {
+          "$date": "2026-09-10T09:00:00Z"
+        },
+        "fc": 110,
+        "fr": 28,
+        "ta_sistolica": 147,
+        "ta_diastolica": 88,
+        "temperatura": 37.2,
+        "spo2": 88,
+        "registrado_por": "ENF-002"
+      },
+      {
+        "fecha": {
+          "$date": "2026-09-10T17:00:00Z"
+        },
+        "fc": 112,
+        "fr": 27,
+        "ta_sistolica": 148,
+        "ta_diastolica": 87,
+        "temperatura": 37.2,
+        "spo2": 88,
+        "registrado_por": "ENF-002"
+      },
+      {
+        "fecha": {
+          "$date": "2026-09-11T01:00:00Z"
+        },
+        "fc": 107,
+        "fr": 26,
+        "ta_sistolica": 149,
+        "ta_diastolica": 87,
+        "temperatura": 37.2,
+        "spo2": 89,
+        "registrado_por": "ENF-002"
+      },
+      {
+        "fecha": {
+          "$date": "2026-09-11T09:00:00Z"
+        },
+        "fc": 109,
+        "fr": 25,
+        "ta_sistolica": 141,
+        "ta_diastolica": 86,
+        "temperatura": 37.2,
+        "spo2": 89,
+        "registrado_por": "ENF-002"
+      },
+      {
+        "fecha": {
+          "$date": "2026-09-11T17:00:00Z"
+        },
+        "fc": 104,
+        "fr": 24,
+        "ta_sistolica": 142,
+        "ta_diastolica": 85,
+        "temperatura": 37.2,
+        "spo2": 90,
+        "registrado_por": "ENF-002"
+      },
+      {
+        "fecha": {
+          "$date": "2026-09-12T01:00:00Z"
+        },
+        "fc": 106,
+        "fr": 24,
+        "ta_sistolica": 143,
+        "ta_diastolica": 85,
+        "temperatura": 37.2,
+        "spo2": 90,
+        "registrado_por": "ENF-002"
+      },
+      {
+        "fecha": {
+          "$date": "2026-09-12T09:00:00Z"
+        },
+        "fc": 100,
+        "fr": 23,
+        "ta_sistolica": 135,
+        "ta_diastolica": 84,
+        "temperatura": 37.2,
+        "spo2": 91,
+        "registrado_por": "ENF-002"
+      },
+      {
+        "fecha": {
+          "$date": "2026-09-12T17:00:00Z"
+        },
+        "fc": 103,
+        "fr": 22,
+        "ta_sistolica": 136,
+        "ta_diastolica": 83,
+        "temperatura": 37.2,
+        "spo2": 91,
+        "registrado_por": "ENF-002"
+      },
+      {
+        "fecha": {
+          "$date": "2026-09-13T01:00:00Z"
+        },
+        "fc": 97,
+        "fr": 21,
+        "ta_sistolica": 137,
+        "ta_diastolica": 82,
+        "temperatura": 37.2,
+        "spo2": 92,
+        "registrado_por": "ENF-002"
+      },
+      {
+        "fecha": {
+          "$date": "2026-09-13T09:00:00Z"
+        },
+        "fc": 100,
+        "fr": 20,
+        "ta_sistolica": 129,
+        "ta_diastolica": 82,
+        "temperatura": 37.2,
+        "spo2": 92,
+        "registrado_por": "ENF-002"
+      },
+      {
+        "fecha": {
+          "$date": "2026-09-13T17:00:00Z"
+        },
+        "fc": 94,
+        "fr": 19,
+        "ta_sistolica": 130,
+        "ta_diastolica": 81,
+        "temperatura": 37.2,
+        "spo2": 93,
+        "registrado_por": "ENF-002"
+      },
+      {
+        "fecha": {
+          "$date": "2026-09-14T01:00:00Z"
+        },
+        "fc": 96,
+        "fr": 18,
+        "ta_sistolica": 131,
+        "ta_diastolica": 80,
+        "temperatura": 37.2,
+        "spo2": 93,
+        "registrado_por": "ENF-002"
+      }
+    ],
+    "notas_enfermeria": [
+      {
+        "fecha": {
+          "$date": "2026-09-10T10:00:00Z"
+        },
+        "enfermera_id": "ENF-002",
+        "turno": "MANANA",
+        "nota": "Ingresa con uso de musculatura accesoria. Se inicia nebulización y O2 por Venturi 28%."
+      },
+      {
+        "fecha": {
+          "$date": "2026-09-13T22:00:00Z"
+        },
+        "enfermera_id": "ENF-001",
+        "turno": "NOCHE",
+        "nota": "Duerme sin O2 suplementario, SpO2 estable 92-93%."
+      }
+    ],
+    "ordenes_medicamentos": [
+      {
+        "medicamento_id": "MED-003",
+        "nombre": "Salbutamol",
+        "dosis": "4 disparos",
+        "via": "INH",
+        "frecuencia": "cada 6 horas",
+        "fecha_inicio": {
+          "$date": "2026-09-10T12:00:00Z"
+        },
+        "fecha_fin": null,
+        "prescriptor_id": "PRO-002",
+        "estado": "ACTIVA"
+      },
+      {
+        "medicamento_id": "MED-004",
+        "nombre": "Prednisolona",
+        "dosis": "50 mg",
+        "via": "VO",
+        "frecuencia": "cada 24 horas",
+        "fecha_inicio": {
+          "$date": "2026-09-10T12:00:00Z"
+        },
+        "fecha_fin": {
+          "$date": "2026-09-15T11:00:00Z"
+        },
+        "prescriptor_id": "PRO-002",
+        "estado": "FINALIZADA"
+      },
+      {
+        "medicamento_id": "MED-002",
+        "nombre": "Azitromicina",
+        "dosis": "500 mg",
+        "via": "VO",
+        "frecuencia": "cada 24 horas",
+        "fecha_inicio": {
+          "$date": "2026-09-10T12:00:00Z"
+        },
+        "fecha_fin": {
+          "$date": "2026-09-13T12:00:00Z"
+        },
+        "prescriptor_id": "PRO-002",
+        "estado": "FINALIZADA"
+      },
+      {
+        "medicamento_id": "MED-008",
+        "nombre": "Losartan",
+        "dosis": "50 mg",
+        "via": "VO",
+        "frecuencia": "cada 24 horas",
+        "fecha_inicio": {
+          "$date": "2026-09-10T12:00:00Z"
+        },
+        "fecha_fin": null,
+        "prescriptor_id": "PRO-002",
+        "estado": "ACTIVA"
+      }
+    ],
+    "alta": {
+      "fecha": {
+        "$date": "2026-09-15T11:00:00Z"
+      },
+      "condicion": "ESTABLE",
+      "destino": "Domicilio",
+      "diagnostico_egreso": "J44.1",
+      "recomendaciones": "Salbutamol de rescate, suspensión del tabaco, control con neumología en 15 días."
+    }
+  },
+  {
+    "_id": "HOSP-2026-0003",
+    "paciente_id": "PAC-003",
+    "medico_tratante_id": "PRO-003",
+    "ips": "Hospital Infantil Concejo de Medellín",
+    "servicio": "PEDIATRIA",
+    "cama": "PE-105",
+    "fecha_admision": {
+      "$date": "2026-09-15T21:00:00Z"
+    },
+    "via_ingreso": "URGENCIAS",
+    "motivo_ingreso": "Vómito y diarrea de 2 días con deshidratación moderada",
+    "estado": "EGRESADA",
+    "diagnosticos": [
+      {
+        "cie10": "A09",
+        "descripcion": "Gastroenteritis de presunto origen infeccioso",
+        "tipo": "INGRESO",
+        "fecha": {
+          "$date": "2026-09-15T21:00:00Z"
+        }
+      },
+      {
+        "cie10": "A09",
+        "descripcion": "Gastroenteritis de presunto origen infeccioso",
+        "tipo": "PRINCIPAL",
+        "fecha": {
+          "$date": "2026-09-16T08:00:00Z"
+        }
+      },
+      {
+        "cie10": "A09",
+        "descripcion": "Gastroenteritis de presunto origen infeccioso",
+        "tipo": "EGRESO",
+        "fecha": {
+          "$date": "2026-09-18T10:00:00Z"
+        }
+      }
+    ],
+    "notas_evolucion": [
+      {
+        "fecha": {
+          "$date": "2026-09-16T08:00:00Z"
+        },
+        "profesional_id": "PRO-003",
+        "subjetivo": "Madre refiere 6 deposiciones líquidas.",
+        "objetivo": "Mucosas secas, llenado capilar 3 s.",
+        "analisis": "Deshidratación moderada.",
+        "plan": "Rehidratación IV y luego oral, dieta astringente."
+      },
+      {
+        "fecha": {
+          "$date": "2026-09-17T08:00:00Z"
+        },
+        "profesional_id": "PRO-003",
+        "subjetivo": "Tolera vía oral, 1 deposición.",
+        "objetivo": "Hidratada, afebril.",
+        "analisis": "Mejoría.",
+        "plan": "Suspender líquidos IV, observar 24 h."
+      }
+    ],
+    "signos_vitales": [
+      {
+        "fecha": {
+          "$date": "2026-09-15T22:00:00Z"
+        },
+        "fc": 122,
+        "fr": 28,
+        "ta_sistolica": 93,
+        "ta_diastolica": 58,
+        "temperatura": 38.1,
+        "spo2": 96,
+        "registrado_por": "ENF-002"
+      },
+      {
+        "fecha": {
+          "$date": "2026-09-16T06:00:00Z"
+        },
+        "fc": 123,
+        "fr": 28,
+        "ta_sistolica": 97,
+        "ta_diastolica": 58,
+        "temperatura": 38.0,
+        "spo2": 96,
+        "registrado_por": "ENF-002"
+      },
+      {
+        "fecha": {
+          "$date": "2026-09-16T14:00:00Z"
+        },
+        "fc": 116,
+        "fr": 27,
+        "ta_sistolica": 101,
+        "ta_diastolica": 59,
+        "temperatura": 37.9,
+        "spo2": 97,
+        "registrado_por": "ENF-002"
+      },
+      {
+        "fecha": {
+          "$date": "2026-09-16T22:00:00Z"
+        },
+        "fc": 116,
+        "fr": 27,
+        "ta_sistolica": 97,
+        "ta_diastolica": 59,
+        "temperatura": 37.7,
+        "spo2": 97,
+        "registrado_por": "ENF-002"
+      },
+      {
+        "fecha": {
+          "$date": "2026-09-17T06:00:00Z"
+        },
+        "fc": 109,
+        "fr": 26,
+        "ta_sistolica": 101,
+        "ta_diastolica": 59,
+        "temperatura": 37.6,
+        "spo2": 97,
+        "registrado_por": "ENF-002"
+      },
+      {
+        "fecha": {
+          "$date": "2026-09-17T14:00:00Z"
+        },
+        "fc": 110,
+        "fr": 26,
+        "ta_sistolica": 105,
+        "ta_diastolica": 60,
+        "temperatura": 37.5,
+        "spo2": 98,
+        "registrado_por": "ENF-002"
+      },
+      {
+        "fecha": {
+          "$date": "2026-09-17T22:00:00Z"
+        },
+        "fc": 103,
+        "fr": 25,
+        "ta_sistolica": 100,
+        "ta_diastolica": 60,
+        "temperatura": 37.4,
+        "spo2": 98,
+        "registrado_por": "ENF-002"
+      },
+      {
+        "fecha": {
+          "$date": "2026-09-18T06:00:00Z"
+        },
+        "fc": 104,
+        "fr": 25,
+        "ta_sistolica": 104,
+        "ta_diastolica": 60,
+        "temperatura": 37.3,
+        "spo2": 98,
+        "registrado_por": "ENF-002"
+      },
+      {
+        "fecha": {
+          "$date": "2026-09-18T14:00:00Z"
+        },
+        "fc": 96,
+        "fr": 24,
+        "ta_sistolica": 109,
+        "ta_diastolica": 60,
+        "temperatura": 37.1,
+        "spo2": 98,
+        "registrado_por": "ENF-002"
+      }
+    ],
+    "notas_enfermeria": [
+      {
+        "fecha": {
+          "$date": "2026-09-16T02:00:00Z"
+        },
+        "enfermera_id": "ENF-002",
+        "turno": "NOCHE",
+        "nota": "Se canaliza vena periférica, inicia Lactato de Ringer. Madre acompaña."
+      },
+      {
+        "fecha": {
+          "$date": "2026-09-17T15:00:00Z"
+        },
+        "enfermera_id": "ENF-001",
+        "turno": "TARDE",
+        "nota": "Tolera suero oral y dieta blanda, sin vómito."
+      }
+    ],
+    "ordenes_medicamentos": [
+      {
+        "medicamento_id": "MED-009",
+        "nombre": "Lactato de Ringer",
+        "dosis": "20 mL/kg en bolo, luego mantenimiento",
+        "via": "IV",
+        "frecuencia": "continuo",
+        "fecha_inicio": {
+          "$date": "2026-09-16T00:00:00Z"
+        },
+        "fecha_fin": {
+          "$date": "2026-09-17T09:00:00Z"
+        },
+        "prescriptor_id": "PRO-003",
+        "estado": "FINALIZADA"
+      },
+      {
+        "medicamento_id": "MED-010",
+        "nombre": "Acetaminofen",
+        "dosis": "500 mg",
+        "via": "VO",
+        "frecuencia": "cada 8 horas si fiebre",
+        "fecha_inicio": {
+          "$date": "2026-09-16T00:00:00Z"
+        },
+        "fecha_fin": {
+          "$date": "2026-09-18T10:00:00Z"
+        },
+        "prescriptor_id": "PRO-003",
+        "estado": "FINALIZADA"
+      }
+    ],
+    "alta": {
+      "fecha": {
+        "$date": "2026-09-18T10:00:00Z"
+      },
+      "condicion": "MEJORADO",
+      "destino": "Domicilio",
+      "diagnostico_egreso": "A09",
+      "recomendaciones": "Suero oral, signos de alarma, control pediátrico en 3 días."
+    }
+  },
+  {
+    "_id": "HOSP-2026-0004",
+    "paciente_id": "PAC-004",
+    "medico_tratante_id": "PRO-001",
+    "ips": "Clínica Cardiovascular de Antioquia",
+    "servicio": "UCI",
+    "cama": "UCI-03",
+    "fecha_admision": {
+      "$date": "2026-09-20T03:40:00Z"
+    },
+    "via_ingreso": "REMISION",
+    "motivo_ingreso": "Dolor torácico opresivo irradiado a brazo izquierdo",
+    "estado": "EGRESADA",
+    "diagnosticos": [
+      {
+        "cie10": "I21.9",
+        "descripcion": "Infarto agudo de miocardio",
+        "tipo": "INGRESO",
+        "fecha": {
+          "$date": "2026-09-20T03:40:00Z"
+        }
+      },
+      {
+        "cie10": "I21.9",
+        "descripcion": "Infarto agudo de miocardio",
+        "tipo": "PRINCIPAL",
+        "fecha": {
+          "$date": "2026-09-20T06:00:00Z"
+        }
+      },
+      {
+        "cie10": "I10",
+        "descripcion": "Hipertensión esencial (primaria)",
+        "tipo": "RELACIONADO",
+        "fecha": {
+          "$date": "2026-09-20T06:00:00Z"
+        }
+      },
+      {
+        "cie10": "I21.9",
+        "descripcion": "Infarto agudo de miocardio",
+        "tipo": "EGRESO",
+        "fecha": {
+          "$date": "2026-09-26T12:00:00Z"
+        }
+      }
+    ],
+    "notas_evolucion": [
+      {
+        "fecha": {
+          "$date": "2026-09-20T06:00:00Z"
+        },
+        "profesional_id": "PRO-001",
+        "subjetivo": "Dolor 8/10.",
+        "objetivo": "ECG con elevación ST en derivaciones inferiores, troponina elevada.",
+        "analisis": "IAMCEST inferior.",
+        "plan": "Reperfusión, doble antiagregación, anticoagulación, UCI."
+      },
+      {
+        "fecha": {
+          "$date": "2026-09-22T09:00:00Z"
+        },
+        "profesional_id": "PRO-001",
+        "subjetivo": "Sin dolor.",
+        "objetivo": "Hemodinamicamente estable, sin arritmias.",
+        "analisis": "Post-intervención sin complicaciones.",
+        "plan": "Traslado a piso, rehabilitación cardiaca."
+      },
+      {
+        "fecha": {
+          "$date": "2026-09-25T09:00:00Z"
+        },
+        "profesional_id": "PRO-002",
+        "subjetivo": "Asintomático.",
+        "objetivo": "TA 118/72, FC 68.",
+        "analisis": "Estable para egreso.",
+        "plan": "Egreso con terapia médica óptima."
+      }
+    ],
+    "signos_vitales": [
+      {
+        "fecha": {
+          "$date": "2026-09-20T04:00:00Z"
+        },
+        "fc": 96,
+        "fr": 22,
+        "ta_sistolica": 147,
+        "ta_diastolica": 92,
+        "temperatura": 36.8,
+        "spo2": 94,
+        "registrado_por": "ENF-001"
+      },
+      {
+        "fecha": {
+          "$date": "2026-09-20T12:00:00Z"
+        },
+        "fc": 98,
+        "fr": 22,
+        "ta_sistolica": 148,
+        "ta_diastolica": 91,
+        "temperatura": 36.8,
+        "spo2": 94,
+        "registrado_por": "ENF-001"
+      },
+      {
+        "fecha": {
+          "$date": "2026-09-20T20:00:00Z"
+        },
+        "fc": 92,
+        "fr": 21,
+        "ta_sistolica": 148,
+        "ta_diastolica": 89,
+        "temperatura": 36.8,
+        "spo2": 95,
+        "registrado_por": "ENF-001"
+      },
+      {
+        "fecha": {
+          "$date": "2026-09-21T04:00:00Z"
+        },
+        "fc": 93,
+        "fr": 21,
+        "ta_sistolica": 140,
+        "ta_diastolica": 88,
+        "temperatura": 36.8,
+        "spo2": 95,
+        "registrado_por": "ENF-001"
+      },
+      {
+        "fecha": {
+          "$date": "2026-09-21T12:00:00Z"
+        },
+        "fc": 87,
+        "fr": 20,
+        "ta_sistolica": 140,
+        "ta_diastolica": 86,
+        "temperatura": 36.8,
+        "spo2": 95,
+        "registrado_por": "ENF-001"
+      },
+      {
+        "fecha": {
+          "$date": "2026-09-21T20:00:00Z"
+        },
+        "fc": 89,
+        "fr": 20,
+        "ta_sistolica": 141,
+        "ta_diastolica": 85,
+        "temperatura": 36.8,
+        "spo2": 96,
+        "registrado_por": "ENF-001"
+      },
+      {
+        "fecha": {
+          "$date": "2026-09-22T04:00:00Z"
+        },
+        "fc": 83,
+        "fr": 20,
+        "ta_sistolica": 133,
+        "ta_diastolica": 84,
+        "temperatura": 36.8,
+        "spo2": 96,
+        "registrado_por": "ENF-001"
+      },
+      {
+        "fecha": {
+          "$date": "2026-09-22T12:00:00Z"
+        },
+        "fc": 85,
+        "fr": 19,
+        "ta_sistolica": 133,
+        "ta_diastolica": 82,
+        "temperatura": 36.8,
+        "spo2": 96,
+        "registrado_por": "ENF-001"
+      },
+      {
+        "fecha": {
+          "$date": "2026-09-22T20:00:00Z"
+        },
+        "fc": 78,
+        "fr": 19,
+        "ta_sistolica": 134,
+        "ta_diastolica": 81,
+        "temperatura": 36.8,
+        "spo2": 96,
+        "registrado_por": "ENF-001"
+      },
+      {
+        "fecha": {
+          "$date": "2026-09-23T04:00:00Z"
+        },
+        "fc": 80,
+        "fr": 18,
+        "ta_sistolica": 125,
+        "ta_diastolica": 79,
+        "temperatura": 36.8,
+        "spo2": 97,
+        "registrado_por": "ENF-001"
+      },
+      {
+        "fecha": {
+          "$date": "2026-09-23T12:00:00Z"
+        },
+        "fc": 74,
+        "fr": 18,
+        "ta_sistolica": 126,
+        "ta_diastolica": 78,
+        "temperatura": 36.8,
+        "spo2": 97,
+        "registrado_por": "ENF-001"
+      },
+      {
+        "fecha": {
+          "$date": "2026-09-23T20:00:00Z"
+        },
+        "fc": 76,
+        "fr": 18,
+        "ta_sistolica": 127,
+        "ta_diastolica": 77,
+        "temperatura": 36.8,
+        "spo2": 97,
+        "registrado_por": "ENF-001"
+      },
+      {
+        "fecha": {
+          "$date": "2026-09-24T04:00:00Z"
+        },
+        "fc": 70,
+        "fr": 17,
+        "ta_sistolica": 118,
+        "ta_diastolica": 75,
+        "temperatura": 36.8,
+        "spo2": 98,
+        "registrado_por": "ENF-001"
+      },
+      {
+        "fecha": {
+          "$date": "2026-09-24T12:00:00Z"
+        },
+        "fc": 71,
+        "fr": 17,
+        "ta_sistolica": 119,
+        "ta_diastolica": 74,
+        "temperatura": 36.8,
+        "spo2": 98,
+        "registrado_por": "ENF-001"
+      }
+    ],
+    "notas_enfermeria": [
+      {
+        "fecha": {
+          "$date": "2026-09-20T05:00:00Z"
+        },
+        "enfermera_id": "ENF-001",
+        "turno": "NOCHE",
+        "nota": "Monitorización continua, acceso venoso central, paciente ansioso, dolor se alivia tras nitroglicerina."
+      },
+      {
+        "fecha": {
+          "$date": "2026-09-23T14:00:00Z"
+        },
+        "enfermera_id": "ENF-002",
+        "turno": "TARDE",
+        "nota": "En piso, deambula 50 m sin dolor ni disnea."
+      }
+    ],
+    "ordenes_medicamentos": [
+      {
+        "medicamento_id": "MED-007",
+        "nombre": "Acido acetilsalicilico",
+        "dosis": "100 mg",
+        "via": "VO",
+        "frecuencia": "cada 24 horas",
+        "fecha_inicio": {
+          "$date": "2026-09-20T04:00:00Z"
+        },
+        "fecha_fin": null,
+        "prescriptor_id": "PRO-001",
+        "estado": "ACTIVA"
+      },
+      {
+        "medicamento_id": "MED-006",
+        "nombre": "Enoxaparina",
+        "dosis": "40 mg",
+        "via": "SC",
+        "frecuencia": "cada 12 horas",
+        "fecha_inicio": {
+          "$date": "2026-09-20T05:00:00Z"
+        },
+        "fecha_fin": {
+          "$date": "2026-09-24T09:00:00Z"
+        },
+        "prescriptor_id": "PRO-001",
+        "estado": "FINALIZADA"
+      },
+      {
+        "medicamento_id": "MED-008",
+        "nombre": "Losartan",
+        "dosis": "50 mg",
+        "via": "VO",
+        "frecuencia": "cada 24 horas",
+        "fecha_inicio": {
+          "$date": "2026-09-22T09:00:00Z"
+        },
+        "fecha_fin": null,
+        "prescriptor_id": "PRO-001",
+        "estado": "ACTIVA"
+      }
+    ],
+    "alta": {
+      "fecha": {
+        "$date": "2026-09-26T12:00:00Z"
+      },
+      "condicion": "ESTABLE",
+      "destino": "Domicilio",
+      "diagnostico_egreso": "I21.9",
+      "recomendaciones": "Rehabilitación cardiaca, dieta hiposódica, control cardiología en 1 semana."
+    }
+  },
+  {
+    "_id": "HOSP-2026-0005",
+    "paciente_id": "PAC-005",
+    "medico_tratante_id": "PRO-004",
+    "ips": "Hospital San Juan de Dios Rionegro",
+    "servicio": "CIRUGIA",
+    "cama": "CI-302",
+    "fecha_admision": {
+      "$date": "2026-10-01T19:20:00Z"
+    },
+    "via_ingreso": "URGENCIAS",
+    "motivo_ingreso": "Dolor abdominal en fosa ilíaca derecha con náuseas",
+    "estado": "EGRESADA",
+    "diagnosticos": [
+      {
+        "cie10": "K35.8",
+        "descripcion": "Apendicitis aguda",
+        "tipo": "INGRESO",
+        "fecha": {
+          "$date": "2026-10-01T19:20:00Z"
+        }
+      },
+      {
+        "cie10": "K35.8",
+        "descripcion": "Apendicitis aguda",
+        "tipo": "PRINCIPAL",
+        "fecha": {
+          "$date": "2026-10-01T22:00:00Z"
+        }
+      },
+      {
+        "cie10": "K35.8",
+        "descripcion": "Apendicitis aguda",
+        "tipo": "EGRESO",
+        "fecha": {
+          "$date": "2026-10-04T10:00:00Z"
+        }
+      }
+    ],
+    "notas_evolucion": [
+      {
+        "fecha": {
+          "$date": "2026-10-01T22:00:00Z"
+        },
+        "profesional_id": "PRO-004",
+        "subjetivo": "Dolor 7/10 en FID.",
+        "objetivo": "Signo de Blumberg positivo, leucocitosis 15.800.",
+        "analisis": "Apendicitis aguda.",
+        "plan": "Apendicectomía laparoscópica urgente."
+      },
+      {
+        "fecha": {
+          "$date": "2026-10-02T09:00:00Z"
+        },
+        "profesional_id": "PRO-004",
+        "subjetivo": "Dolor leve en heridas.",
+        "objetivo": "Heridas limpias, tolera vía oral.",
+        "analisis": "Posoperatorio inmediato sin complicaciones.",
+        "plan": "Analgesia, deambulación, egreso próximas 24-48 h."
+      }
+    ],
+    "signos_vitales": [
+      {
+        "fecha": {
+          "$date": "2026-10-01T20:00:00Z"
+        },
+        "fc": 100,
+        "fr": 20,
+        "ta_sistolica": 119,
+        "ta_diastolica": 74,
+        "temperatura": 38.2,
+        "spo2": 98,
+        "registrado_por": "ENF-002"
+      },
+      {
+        "fecha": {
+          "$date": "2026-10-02T04:00:00Z"
+        },
+        "fc": 101,
+        "fr": 20,
+        "ta_sistolica": 121,
+        "ta_diastolica": 74,
+        "temperatura": 38.1,
+        "spo2": 98,
+        "registrado_por": "ENF-002"
+      },
+      {
+        "fecha": {
+          "$date": "2026-10-02T12:00:00Z"
+        },
+        "fc": 94,
+        "fr": 20,
+        "ta_sistolica": 123,
+        "ta_diastolica": 74,
+        "temperatura": 37.9,
+        "spo2": 98,
+        "registrado_por": "ENF-002"
+      },
+      {
+        "fecha": {
+          "$date": "2026-10-02T20:00:00Z"
+        },
+        "fc": 95,
+        "fr": 19,
+        "ta_sistolica": 117,
+        "ta_diastolica": 74,
+        "temperatura": 37.8,
+        "spo2": 98,
+        "registrado_por": "ENF-002"
+      },
+      {
+        "fecha": {
+          "$date": "2026-10-03T04:00:00Z"
+        },
+        "fc": 88,
+        "fr": 19,
+        "ta_sistolica": 119,
+        "ta_diastolica": 74,
+        "temperatura": 37.6,
+        "spo2": 98,
+        "registrado_por": "ENF-002"
+      },
+      {
+        "fecha": {
+          "$date": "2026-10-03T12:00:00Z"
+        },
+        "fc": 89,
+        "fr": 19,
+        "ta_sistolica": 121,
+        "ta_diastolica": 74,
+        "temperatura": 37.5,
+        "spo2": 98,
+        "registrado_por": "ENF-002"
+      },
+      {
+        "fecha": {
+          "$date": "2026-10-03T20:00:00Z"
+        },
+        "fc": 82,
+        "fr": 19,
+        "ta_sistolica": 114,
+        "ta_diastolica": 74,
+        "temperatura": 37.3,
+        "spo2": 98,
+        "registrado_por": "ENF-002"
+      },
+      {
+        "fecha": {
+          "$date": "2026-10-04T04:00:00Z"
+        },
+        "fc": 83,
+        "fr": 19,
+        "ta_sistolica": 116,
+        "ta_diastolica": 74,
+        "temperatura": 37.2,
+        "spo2": 98,
+        "registrado_por": "ENF-002"
+      },
+      {
+        "fecha": {
+          "$date": "2026-10-04T12:00:00Z"
+        },
+        "fc": 76,
+        "fr": 18,
+        "ta_sistolica": 119,
+        "ta_diastolica": 74,
+        "temperatura": 37.0,
+        "spo2": 98,
+        "registrado_por": "ENF-002"
+      }
+    ],
+    "notas_enfermeria": [
+      {
+        "fecha": {
+          "$date": "2026-10-02T01:00:00Z"
+        },
+        "enfermera_id": "ENF-002",
+        "turno": "NOCHE",
+        "nota": "Retorna de quirófano, despierta, dolor 4/10, drenaje no requerido."
+      },
+      {
+        "fecha": {
+          "$date": "2026-10-03T10:00:00Z"
+        },
+        "enfermera_id": "ENF-001",
+        "turno": "MANANA",
+        "nota": "Deambula, tolera dieta normal, herida sin signos de infección."
+      }
+    ],
+    "ordenes_medicamentos": [
+      {
+        "medicamento_id": "MED-001",
+        "nombre": "Ceftriaxona",
+        "dosis": "1 g",
+        "via": "IV",
+        "frecuencia": "cada 24 horas",
+        "fecha_inicio": {
+          "$date": "2026-10-01T22:30:00Z"
+        },
+        "fecha_fin": {
+          "$date": "2026-10-03T22:30:00Z"
+        },
+        "prescriptor_id": "PRO-004",
+        "estado": "FINALIZADA"
+      },
+      {
+        "medicamento_id": "MED-010",
+        "nombre": "Acetaminofen",
+        "dosis": "500 mg",
+        "via": "VO",
+        "frecuencia": "cada 6 horas",
+        "fecha_inicio": {
+          "$date": "2026-10-02T06:00:00Z"
+        },
+        "fecha_fin": {
+          "$date": "2026-10-04T10:00:00Z"
+        },
+        "prescriptor_id": "PRO-004",
+        "estado": "FINALIZADA"
+      }
+    ],
+    "alta": {
+      "fecha": {
+        "$date": "2026-10-04T10:00:00Z"
+      },
+      "condicion": "MEJORADO",
+      "destino": "Domicilio",
+      "diagnostico_egreso": "K35.8",
+      "recomendaciones": "Control de herida en 7 días, reposo relativo."
+    }
+  },
+  {
+    "_id": "HOSP-2026-0006",
+    "paciente_id": "PAC-006",
+    "medico_tratante_id": "PRO-002",
+    "ips": "Hospital General de Medellín",
+    "servicio": "MEDICINA_INTERNA",
+    "cama": "MI-218",
+    "fecha_admision": {
+      "$date": "2026-10-21T10:00:00Z"
+    },
+    "via_ingreso": "URGENCIAS",
+    "motivo_ingreso": "Poliuria, polidipsia, náuseas y malestar general",
+    "estado": "ACTIVA",
+    "diagnosticos": [
+      {
+        "cie10": "E11.1",
+        "descripcion": "Diabetes mellitus tipo 2 con cetoacidosis",
+        "tipo": "INGRESO",
+        "fecha": {
+          "$date": "2026-10-21T10:00:00Z"
+        }
+      },
+      {
+        "cie10": "E11.1",
+        "descripcion": "Diabetes mellitus tipo 2 con cetoacidosis",
+        "tipo": "PRINCIPAL",
+        "fecha": {
+          "$date": "2026-10-21T13:00:00Z"
+        }
+      },
+      {
+        "cie10": "N39.0",
+        "descripcion": "Infección de vías urinarias",
+        "tipo": "RELACIONADO",
+        "fecha": {
+          "$date": "2026-10-21T13:00:00Z"
+        }
+      }
+    ],
+    "notas_evolucion": [
+      {
+        "fecha": {
+          "$date": "2026-10-21T13:00:00Z"
+        },
+        "profesional_id": "PRO-002",
+        "subjetivo": "Sed intensa, náuseas.",
+        "objetivo": "Glucemia 480 mg/dL, cetonuria 3+, pH 7.21.",
+        "analisis": "Cetoacidosis diabética, posible foco urinario.",
+        "plan": "Insulina en infusión, hidratación IV, antibiótico, control de electrolitos."
+      },
+      {
+        "fecha": {
+          "$date": "2026-10-23T09:00:00Z"
+        },
+        "profesional_id": "PRO-002",
+        "subjetivo": "Mejoría, sin náuseas.",
+        "objetivo": "Glucemia 190 mg/dL, pH 7.36.",
+        "analisis": "Resolución de la acidosis.",
+        "plan": "Transición a insulina SC, continuar antibiótico."
+      }
+    ],
+    "signos_vitales": [
+      {
+        "fecha": {
+          "$date": "2026-10-21T11:00:00Z"
+        },
+        "fc": 116,
+        "fr": 24,
+        "ta_sistolica": 101,
+        "ta_diastolica": 62,
+        "temperatura": 37.8,
+        "spo2": 95,
+        "registrado_por": "ENF-001"
+      },
+      {
+        "fecha": {
+          "$date": "2026-10-21T19:00:00Z"
+        },
+        "fc": 117,
+        "fr": 23,
+        "ta_sistolica": 107,
+        "ta_diastolica": 64,
+        "temperatura": 37.7,
+        "spo2": 95,
+        "registrado_por": "ENF-001"
+      },
+      {
+        "fecha": {
+          "$date": "2026-10-22T03:00:00Z"
+        },
+        "fc": 109,
+        "fr": 22,
+        "ta_sistolica": 113,
+        "ta_diastolica": 65,
+        "temperatura": 37.6,
+        "spo2": 96,
+        "registrado_por": "ENF-001"
+      },
+      {
+        "fecha": {
+          "$date": "2026-10-22T11:00:00Z"
+        },
+        "fc": 110,
+        "fr": 21,
+        "ta_sistolica": 109,
+        "ta_diastolica": 67,
+        "temperatura": 37.5,
+        "spo2": 96,
+        "registrado_por": "ENF-001"
+      },
+      {
+        "fecha": {
+          "$date": "2026-10-22T19:00:00Z"
+        },
+        "fc": 102,
+        "fr": 20,
+        "ta_sistolica": 115,
+        "ta_diastolica": 68,
+        "temperatura": 37.4,
+        "spo2": 96,
+        "registrado_por": "ENF-001"
+      },
+      {
+        "fecha": {
+          "$date": "2026-10-23T03:00:00Z"
+        },
+        "fc": 103,
+        "fr": 20,
+        "ta_sistolica": 121,
+        "ta_diastolica": 70,
+        "temperatura": 37.3,
+        "spo2": 97,
+        "registrado_por": "ENF-001"
+      },
+      {
+        "fecha": {
+          "$date": "2026-10-23T11:00:00Z"
+        },
+        "fc": 95,
+        "fr": 19,
+        "ta_sistolica": 118,
+        "ta_diastolica": 72,
+        "temperatura": 37.2,
+        "spo2": 97,
+        "registrado_por": "ENF-001"
+      },
+      {
+        "fecha": {
+          "$date": "2026-10-23T19:00:00Z"
+        },
+        "fc": 96,
+        "fr": 18,
+        "ta_sistolica": 124,
+        "ta_diastolica": 73,
+        "temperatura": 37.1,
+        "spo2": 97,
+        "registrado_por": "ENF-001"
+      },
+      {
+        "fecha": {
+          "$date": "2026-10-24T03:00:00Z"
+        },
+        "fc": 88,
+        "fr": 17,
+        "ta_sistolica": 129,
+        "ta_diastolica": 75,
+        "temperatura": 37.0,
+        "spo2": 97,
+        "registrado_por": "ENF-001"
+      },
+      {
+        "fecha": {
+          "$date": "2026-10-24T11:00:00Z"
+        },
+        "fc": 89,
+        "fr": 16,
+        "ta_sistolica": 126,
+        "ta_diastolica": 76,
+        "temperatura": 36.9,
+        "spo2": 98,
+        "registrado_por": "ENF-001"
+      }
+    ],
+    "notas_enfermeria": [
+      {
+        "fecha": {
+          "$date": "2026-10-21T14:00:00Z"
+        },
+        "enfermera_id": "ENF-001",
+        "turno": "TARDE",
+        "nota": "Inicia infusión de insulina, glucometrías horarias."
+      },
+      {
+        "fecha": {
+          "$date": "2026-10-23T22:00:00Z"
+        },
+        "enfermera_id": "ENF-002",
+        "turno": "NOCHE",
+        "nota": "Paciente estable, tolera dieta para diabético."
+      }
+    ],
+    "ordenes_medicamentos": [
+      {
+        "medicamento_id": "MED-005",
+        "nombre": "Insulina cristalina",
+        "dosis": "0.1 UI/kg/h en infusión",
+        "via": "IV",
+        "frecuencia": "continuo",
+        "fecha_inicio": {
+          "$date": "2026-10-21T13:30:00Z"
+        },
+        "fecha_fin": {
+          "$date": "2026-10-23T09:00:00Z"
+        },
+        "prescriptor_id": "PRO-002",
+        "estado": "FINALIZADA"
+      },
+      {
+        "medicamento_id": "MED-009",
+        "nombre": "Lactato de Ringer",
+        "dosis": "1000 mL",
+        "via": "IV",
+        "frecuencia": "cada 4 horas",
+        "fecha_inicio": {
+          "$date": "2026-10-21T13:00:00Z"
+        },
+        "fecha_fin": {
+          "$date": "2026-10-22T13:00:00Z"
+        },
+        "prescriptor_id": "PRO-002",
+        "estado": "FINALIZADA"
+      },
+      {
+        "medicamento_id": "MED-011",
+        "nombre": "Ciprofloxacino",
+        "dosis": "500 mg",
+        "via": "VO",
+        "frecuencia": "cada 12 horas",
+        "fecha_inicio": {
+          "$date": "2026-10-21T14:00:00Z"
+        },
+        "fecha_fin": null,
+        "prescriptor_id": "PRO-002",
+        "estado": "ACTIVA"
+      },
+      {
+        "medicamento_id": "MED-012",
+        "nombre": "Metformina",
+        "dosis": "850 mg",
+        "via": "VO",
+        "frecuencia": "cada 12 horas",
+        "fecha_inicio": {
+          "$date": "2026-10-23T09:00:00Z"
+        },
+        "fecha_fin": null,
+        "prescriptor_id": "PRO-002",
+        "estado": "ACTIVA"
+      }
+    ],
+    "alta": null
+  },
+  {
+    "_id": "HOSP-2026-0007",
+    "paciente_id": "PAC-001",
+    "medico_tratante_id": "PRO-001",
+    "ips": "Hospital General de Medellín",
+    "servicio": "MEDICINA_INTERNA",
+    "cama": "MI-206",
+    "fecha_admision": {
+      "$date": "2026-10-22T16:45:00Z"
+    },
+    "via_ingreso": "URGENCIAS",
+    "motivo_ingreso": "Cefalea intensa y cifras tensionales elevadas",
+    "estado": "ACTIVA",
+    "diagnosticos": [
+      {
+        "cie10": "I10",
+        "descripcion": "Hipertensión esencial (primaria)",
+        "tipo": "INGRESO",
+        "fecha": {
+          "$date": "2026-10-22T16:45:00Z"
+        }
+      },
+      {
+        "cie10": "I10",
+        "descripcion": "Hipertensión esencial (primaria)",
+        "tipo": "PRINCIPAL",
+        "fecha": {
+          "$date": "2026-10-22T19:00:00Z"
+        }
+      },
+      {
+        "cie10": "E11.9",
+        "descripcion": "Diabetes mellitus tipo 2 sin complicaciones",
+        "tipo": "RELACIONADO",
+        "fecha": {
+          "$date": "2026-10-22T19:00:00Z"
+        }
+      }
+    ],
+    "notas_evolucion": [
+      {
+        "fecha": {
+          "$date": "2026-10-22T19:00:00Z"
+        },
+        "profesional_id": "PRO-001",
+        "subjetivo": "Cefalea occipital, sin déficit neurológico.",
+        "objetivo": "TA 192/108, examen neurológico normal.",
+        "analisis": "Urgencia hipertensiva.",
+        "plan": "Reducción gradual de TA por vía oral, vigilancia."
+      },
+      {
+        "fecha": {
+          "$date": "2026-10-24T09:00:00Z"
+        },
+        "profesional_id": "PRO-001",
+        "subjetivo": "Sin cefalea.",
+        "objetivo": "TA 138/84.",
+        "analisis": "Control tensional logrado.",
+        "plan": "Ajuste de antihipertensivo, egreso próximo."
+      }
+    ],
+    "signos_vitales": [
+      {
+        "fecha": {
+          "$date": "2026-10-22T17:00:00Z"
+        },
+        "fc": 86,
+        "fr": 18,
+        "ta_sistolica": 189,
+        "ta_diastolica": 108,
+        "temperatura": 36.6,
+        "spo2": 97,
+        "registrado_por": "ENF-002"
+      },
+      {
+        "fecha": {
+          "$date": "2026-10-23T01:00:00Z"
+        },
+        "fc": 89,
+        "fr": 18,
+        "ta_sistolica": 185,
+        "ta_diastolica": 105,
+        "temperatura": 36.6,
+        "spo2": 97,
+        "registrado_por": "ENF-002"
+      },
+      {
+        "fecha": {
+          "$date": "2026-10-23T09:00:00Z"
+        },
+        "fc": 84,
+        "fr": 18,
+        "ta_sistolica": 181,
+        "ta_diastolica": 101,
+        "temperatura": 36.6,
+        "spo2": 97,
+        "registrado_por": "ENF-002"
+      },
+      {
+        "fecha": {
+          "$date": "2026-10-23T17:00:00Z"
+        },
+        "fc": 87,
+        "fr": 18,
+        "ta_sistolica": 168,
+        "ta_diastolica": 98,
+        "temperatura": 36.6,
+        "spo2": 97,
+        "registrado_por": "ENF-002"
+      },
+      {
+        "fecha": {
+          "$date": "2026-10-24T01:00:00Z"
+        },
+        "fc": 82,
+        "fr": 18,
+        "ta_sistolica": 164,
+        "ta_diastolica": 94,
+        "temperatura": 36.6,
+        "spo2": 97,
+        "registrado_por": "ENF-002"
+      },
+      {
+        "fecha": {
+          "$date": "2026-10-24T09:00:00Z"
+        },
+        "fc": 85,
+        "fr": 18,
+        "ta_sistolica": 160,
+        "ta_diastolica": 91,
+        "temperatura": 36.6,
+        "spo2": 97,
+        "registrado_por": "ENF-002"
+      },
+      {
+        "fecha": {
+          "$date": "2026-10-24T17:00:00Z"
+        },
+        "fc": 80,
+        "fr": 18,
+        "ta_sistolica": 147,
+        "ta_diastolica": 87,
+        "temperatura": 36.6,
+        "spo2": 97,
+        "registrado_por": "ENF-002"
+      },
+      {
+        "fecha": {
+          "$date": "2026-10-25T01:00:00Z"
+        },
+        "fc": 83,
+        "fr": 18,
+        "ta_sistolica": 143,
+        "ta_diastolica": 84,
+        "temperatura": 36.6,
+        "spo2": 97,
+        "registrado_por": "ENF-002"
+      }
+    ],
+    "notas_enfermeria": [
+      {
+        "fecha": {
+          "$date": "2026-10-22T18:00:00Z"
+        },
+        "enfermera_id": "ENF-002",
+        "turno": "TARDE",
+        "nota": "Ingresa con cefalea, reposo en cama con cabecera elevada 30°, toma de TA cada 2 h."
+      }
+    ],
+    "ordenes_medicamentos": [
+      {
+        "medicamento_id": "MED-008",
+        "nombre": "Losartan",
+        "dosis": "100 mg",
+        "via": "VO",
+        "frecuencia": "cada 24 horas",
+        "fecha_inicio": {
+          "$date": "2026-10-22T19:00:00Z"
+        },
+        "fecha_fin": null,
+        "prescriptor_id": "PRO-001",
+        "estado": "ACTIVA"
+      },
+      {
+        "medicamento_id": "MED-012",
+        "nombre": "Metformina",
+        "dosis": "850 mg",
+        "via": "VO",
+        "frecuencia": "cada 12 horas",
+        "fecha_inicio": {
+          "$date": "2026-10-22T19:00:00Z"
+        },
+        "fecha_fin": null,
+        "prescriptor_id": "PRO-001",
+        "estado": "ACTIVA"
+      }
+    ],
+    "alta": null
+  }
+]

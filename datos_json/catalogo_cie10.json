@@ -1,0 +1,52 @@
+[
+  {
+    "_id": "A09",
+    "descripcion": "Diarrea y gastroenteritis de presunto origen infeccioso",
+    "capitulo": "Infecciosas"
+  },
+  {
+    "_id": "A90",
+    "descripcion": "Dengue clasico",
+    "capitulo": "Infecciosas"
+  },
+  {
+    "_id": "E11.1",
+    "descripcion": "Diabetes mellitus tipo 2 con cetoacidosis",
+    "capitulo": "Endocrino"
+  },
+  {
+    "_id": "E11.9",
+    "descripcion": "Diabetes mellitus tipo 2 sin complicaciones",
+    "capitulo": "Endocrino"
+  },
+  {
+    "_id": "I10",
+    "descripcion": "Hipertension esencial (primaria)",
+    "capitulo": "Circulatorio"
+  },
+  {
+    "_id": "I21.9",
+    "descripcion": "Infarto agudo de miocardio, sin otra especificacion",
+    "capitulo": "Circulatorio"
+  },
+  {
+    "_id": "J18.9",
+    "descripcion": "Neumonia, no especificada",
+    "capitulo": "Respiratorio"
+  },
+  {
+    "_id": "J44.1",
+    "descripcion": "EPOC con exacerbacion aguda",
+    "capitulo": "Respiratorio"
+  },
+  {
+    "_id": "K35.8",
+    "descripcion": "Apendicitis aguda, otra y la no especificada",
+    "capitulo": "Digestivo"
+  },
+  {
+    "_id": "N39.0",
+    "descripcion": "Infeccion de vias urinarias, sitio no especificado",
+    "capitulo": "Genitourinario"
+  }
+]
